@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Exercise</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="header"></div>   
+
+    <!-- Heading -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">Exercise Site</h1>
+                <p class="lead text-center">An ASP.net project that creates a workout for you.</p>
+            </div>
+            <a href="https://github.com/kevinnieskes/exercisesite" align="center">GitHub: ExerciseSite</a>
+            <p>This site I made much later once I had sharpened my skills. It takes in a persons name and weight and then based on each letter of their name picks exercises for them to do and displays them and the calories they will burn in a table.</p>
+            <img src="images/exercisedata.png" />
+        </div>
+    </div>
+
+    <div id="footer"></div> 
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
+    </script> 
+
+</body>
+</html>
