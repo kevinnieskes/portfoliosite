@@ -58,7 +58,7 @@
    background: white;
    -moz-box-shadow: 0 0 20px black;
    -webkit-box-shadow: 0 0 20px black;
-   box-shadow: 0 0 20px black
+   box-shadow: 0 0 20px black;
 }
 
 .result {
@@ -71,5 +71,5 @@
    background: white;
    -moz-box-shadow: 0 0 20px black;
    -webkit-box-shadow: 0 0 20px black;
-   box-shadow: 0 0 20px black
+   box-shadow: 0 0 20px black;
 }
